@@ -1,0 +1,596 @@
+10 07, 2013 5:31:48 午後 org.apache.catalina.core.AprLifecycleListener init
+情報: Loaded APR based Apache Tomcat Native library 1.1.27 using APR version 1.4.6.
+10 07, 2013 5:31:48 午後 org.apache.catalina.core.AprLifecycleListener init
+情報: APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+10 07, 2013 5:31:49 午後 org.apache.catalina.core.AprLifecycleListener initializeSSL
+情報: OpenSSL successfully initialized (OpenSSL 1.0.1d 5 Feb 2013)
+10 07, 2013 5:31:49 午後 org.apache.coyote.AbstractProtocol init
+情報: Initializing ProtocolHandler ["http-apr-8080"]
+10 07, 2013 5:31:49 午後 org.apache.coyote.AbstractProtocol init
+情報: Initializing ProtocolHandler ["ajp-apr-8009"]
+10 07, 2013 5:31:49 午後 org.apache.catalina.startup.Catalina load
+情報: Initialization processed in 1638 ms
+10 07, 2013 5:31:50 午後 org.apache.catalina.core.StandardService startInternal
+情報: サービス Catalina を起動します
+10 07, 2013 5:31:50 午後 org.apache.catalina.core.StandardEngine startInternal
+情報: Starting Servlet Engine: Apache Tomcat/7.0.42
+10 07, 2013 5:31:50 午後 org.apache.catalina.loader.WebappClassLoader validateJarFile
+情報: validateJarFile(D:\develop\workspace\fusion\target\fusion\WEB-INF\lib\javax.servlet-api-3.1.0.jar) - jar not loaded. See Servlet Spec 2.3, section 9.7.2. Offending class: javax/servlet/Servlet.class
+10 07, 2013 5:32:02 午後 org.apache.catalina.startup.HostConfig deployDirectory
+情報: Webアプリケーションディレクトリ D:\develop\tomcat7042\webapps\docs を配備します
+10 07, 2013 5:32:02 午後 org.apache.catalina.startup.HostConfig deployDirectory
+情報: Webアプリケーションディレクトリ D:\develop\tomcat7042\webapps\examples を配備します
+10 07, 2013 5:32:02 午後 org.apache.catalina.startup.HostConfig deployDirectory
+情報: Webアプリケーションディレクトリ D:\develop\tomcat7042\webapps\host-manager を配備します
+10 07, 2013 5:32:02 午後 org.apache.catalina.startup.HostConfig deployDirectory
+情報: Webアプリケーションディレクトリ D:\develop\tomcat7042\webapps\manager を配備します
+10 07, 2013 5:32:02 午後 org.apache.catalina.startup.HostConfig deployDirectory
+情報: Webアプリケーションディレクトリ D:\develop\tomcat7042\webapps\ROOT を配備します
+10 07, 2013 5:32:02 午後 org.apache.coyote.AbstractProtocol start
+情報: Starting ProtocolHandler ["http-apr-8080"]
+10 07, 2013 5:32:02 午後 org.apache.coyote.AbstractProtocol start
+情報: Starting ProtocolHandler ["ajp-apr-8009"]
+10 07, 2013 5:32:02 午後 org.apache.catalina.startup.Catalina start
+情報: Server startup in 12891 ms
+10 07, 2013 5:34:20 午後 org.apache.catalina.core.StandardServer await
+情報: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+10 07, 2013 5:34:20 午後 org.apache.coyote.AbstractProtocol pause
+情報: Pausing ProtocolHandler ["http-apr-8080"]
+10 07, 2013 5:34:20 午後 org.apache.coyote.AbstractProtocol pause
+情報: Pausing ProtocolHandler ["ajp-apr-8009"]
+10 07, 2013 5:34:20 午後 org.apache.catalina.core.StandardService stopInternal
+情報: サービス Catalina を停止します
+10 07, 2013 5:34:20 午後 org.apache.catalina.loader.WebappClassLoader clearReferencesJdbc
+重大: The web application [/fusion] registered the JDBC driver [com.mysql.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+10 07, 2013 5:34:20 午後 org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+重大: The web application [/fusion] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak.
+10 07, 2013 5:34:20 午後 org.apache.coyote.AbstractProtocol stop
+情報: Stopping ProtocolHandler ["http-apr-8080"]
+10 07, 2013 5:34:20 午後 org.apache.coyote.AbstractProtocol stop
+情報: Stopping ProtocolHandler ["ajp-apr-8009"]
+10 07, 2013 5:34:20 午後 org.apache.coyote.AbstractProtocol destroy
+情報: Destroying ProtocolHandler ["http-apr-8080"]
+10 07, 2013 5:34:20 午後 org.apache.coyote.AbstractProtocol destroy
+情報: Destroying ProtocolHandler ["ajp-apr-8009"]
+10 07, 2013 5:36:49 午後 org.apache.catalina.core.AprLifecycleListener init
+情報: Loaded APR based Apache Tomcat Native library 1.1.27 using APR version 1.4.6.
+10 07, 2013 5:36:49 午後 org.apache.catalina.core.AprLifecycleListener init
+情報: APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+10 07, 2013 5:36:50 午後 org.apache.catalina.core.AprLifecycleListener initializeSSL
+情報: OpenSSL successfully initialized (OpenSSL 1.0.1d 5 Feb 2013)
+10 07, 2013 5:36:50 午後 org.apache.coyote.AbstractProtocol init
+情報: Initializing ProtocolHandler ["http-apr-8080"]
+10 07, 2013 5:36:50 午後 org.apache.coyote.AbstractProtocol init
+情報: Initializing ProtocolHandler ["ajp-apr-8009"]
+10 07, 2013 5:36:50 午後 org.apache.catalina.startup.Catalina load
+情報: Initialization processed in 1610 ms
+10 07, 2013 5:36:50 午後 org.apache.catalina.core.StandardService startInternal
+情報: サービス Catalina を起動します
+10 07, 2013 5:36:50 午後 org.apache.catalina.core.StandardEngine startInternal
+情報: Starting Servlet Engine: Apache Tomcat/7.0.42
+10 07, 2013 5:36:50 午後 org.apache.catalina.loader.WebappClassLoader validateJarFile
+情報: validateJarFile(D:\develop\workspace\fusion\target\fusion\WEB-INF\lib\javax.servlet-api-3.1.0.jar) - jar not loaded. See Servlet Spec 2.3, section 9.7.2. Offending class: javax/servlet/Servlet.class
+10 07, 2013 5:37:02 午後 org.apache.catalina.startup.HostConfig deployDirectory
+情報: Webアプリケーションディレクトリ D:\develop\tomcat7042\webapps\docs を配備します
+10 07, 2013 5:37:02 午後 org.apache.catalina.startup.HostConfig deployDirectory
+情報: Webアプリケーションディレクトリ D:\develop\tomcat7042\webapps\examples を配備します
+10 07, 2013 5:37:03 午後 org.apache.catalina.startup.HostConfig deployDirectory
+情報: Webアプリケーションディレクトリ D:\develop\tomcat7042\webapps\host-manager を配備します
+10 07, 2013 5:37:03 午後 org.apache.catalina.startup.HostConfig deployDirectory
+情報: Webアプリケーションディレクトリ D:\develop\tomcat7042\webapps\manager を配備します
+10 07, 2013 5:37:03 午後 org.apache.catalina.startup.HostConfig deployDirectory
+情報: Webアプリケーションディレクトリ D:\develop\tomcat7042\webapps\ROOT を配備します
+10 07, 2013 5:37:03 午後 org.apache.coyote.AbstractProtocol start
+情報: Starting ProtocolHandler ["http-apr-8080"]
+10 07, 2013 5:37:03 午後 org.apache.coyote.AbstractProtocol start
+情報: Starting ProtocolHandler ["ajp-apr-8009"]
+10 07, 2013 5:37:03 午後 org.apache.catalina.startup.Catalina start
+情報: Server startup in 13117 ms
+10 07, 2013 5:38:55 午後 org.apache.catalina.core.StandardServer await
+情報: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+10 07, 2013 5:38:55 午後 org.apache.coyote.AbstractProtocol pause
+情報: Pausing ProtocolHandler ["http-apr-8080"]
+10 07, 2013 5:38:56 午後 org.apache.coyote.AbstractProtocol pause
+情報: Pausing ProtocolHandler ["ajp-apr-8009"]
+10 07, 2013 5:38:56 午後 org.apache.catalina.core.StandardService stopInternal
+情報: サービス Catalina を停止します
+10 07, 2013 5:38:56 午後 org.apache.catalina.loader.WebappClassLoader clearReferencesJdbc
+重大: The web application [/fusion] registered the JDBC driver [com.mysql.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+10 07, 2013 5:38:56 午後 org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+重大: The web application [/fusion] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak.
+10 07, 2013 5:38:56 午後 org.apache.coyote.AbstractProtocol stop
+情報: Stopping ProtocolHandler ["http-apr-8080"]
+10 07, 2013 5:38:56 午後 org.apache.coyote.AbstractProtocol stop
+情報: Stopping ProtocolHandler ["ajp-apr-8009"]
+10 07, 2013 5:38:56 午後 org.apache.coyote.AbstractProtocol destroy
+情報: Destroying ProtocolHandler ["http-apr-8080"]
+10 07, 2013 5:38:56 午後 org.apache.coyote.AbstractProtocol destroy
+情報: Destroying ProtocolHandler ["ajp-apr-8009"]
+10 07, 2013 5:40:01 午後 org.apache.catalina.core.AprLifecycleListener init
+情報: Loaded APR based Apache Tomcat Native library 1.1.27 using APR version 1.4.6.
+10 07, 2013 5:40:01 午後 org.apache.catalina.core.AprLifecycleListener init
+情報: APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+10 07, 2013 5:40:02 午後 org.apache.catalina.core.AprLifecycleListener initializeSSL
+情報: OpenSSL successfully initialized (OpenSSL 1.0.1d 5 Feb 2013)
+10 07, 2013 5:40:02 午後 org.apache.coyote.AbstractProtocol init
+情報: Initializing ProtocolHandler ["http-apr-8080"]
+10 07, 2013 5:40:02 午後 org.apache.coyote.AbstractProtocol init
+情報: Initializing ProtocolHandler ["ajp-apr-8009"]
+10 07, 2013 5:40:02 午後 org.apache.catalina.startup.Catalina load
+情報: Initialization processed in 1524 ms
+10 07, 2013 5:40:02 午後 org.apache.catalina.core.StandardService startInternal
+情報: サービス Catalina を起動します
+10 07, 2013 5:40:02 午後 org.apache.catalina.core.StandardEngine startInternal
+情報: Starting Servlet Engine: Apache Tomcat/7.0.42
+10 07, 2013 5:40:02 午後 org.apache.catalina.loader.WebappClassLoader validateJarFile
+情報: validateJarFile(D:\develop\workspace\fusion\target\fusion\WEB-INF\lib\javax.servlet-api-3.1.0.jar) - jar not loaded. See Servlet Spec 2.3, section 9.7.2. Offending class: javax/servlet/Servlet.class
+10 07, 2013 5:40:15 午後 org.apache.catalina.startup.HostConfig deployDirectory
+情報: Webアプリケーションディレクトリ D:\develop\tomcat7042\webapps\docs を配備します
+10 07, 2013 5:40:15 午後 org.apache.catalina.startup.HostConfig deployDirectory
+情報: Webアプリケーションディレクトリ D:\develop\tomcat7042\webapps\examples を配備します
+10 07, 2013 5:40:15 午後 org.apache.catalina.startup.HostConfig deployDirectory
+情報: Webアプリケーションディレクトリ D:\develop\tomcat7042\webapps\host-manager を配備します
+10 07, 2013 5:40:15 午後 org.apache.catalina.startup.HostConfig deployDirectory
+情報: Webアプリケーションディレクトリ D:\develop\tomcat7042\webapps\manager を配備します
+10 07, 2013 5:40:15 午後 org.apache.catalina.startup.HostConfig deployDirectory
+情報: Webアプリケーションディレクトリ D:\develop\tomcat7042\webapps\ROOT を配備します
+10 07, 2013 5:40:15 午後 org.apache.coyote.AbstractProtocol start
+情報: Starting ProtocolHandler ["http-apr-8080"]
+10 07, 2013 5:40:15 午後 org.apache.coyote.AbstractProtocol start
+情報: Starting ProtocolHandler ["ajp-apr-8009"]
+10 07, 2013 5:40:15 午後 org.apache.catalina.startup.Catalina start
+情報: Server startup in 13459 ms
+10 07, 2013 5:41:07 午後 org.apache.catalina.core.StandardServer await
+情報: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+10 07, 2013 5:41:07 午後 org.apache.coyote.AbstractProtocol pause
+情報: Pausing ProtocolHandler ["http-apr-8080"]
+10 07, 2013 5:41:07 午後 org.apache.coyote.AbstractProtocol pause
+情報: Pausing ProtocolHandler ["ajp-apr-8009"]
+10 07, 2013 5:41:07 午後 org.apache.catalina.core.StandardService stopInternal
+情報: サービス Catalina を停止します
+10 07, 2013 5:41:08 午後 org.apache.catalina.loader.WebappClassLoader clearReferencesJdbc
+重大: The web application [/fusion] registered the JDBC driver [com.mysql.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+10 07, 2013 5:41:08 午後 org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+重大: The web application [/fusion] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak.
+10 07, 2013 5:41:08 午後 org.apache.coyote.AbstractProtocol stop
+情報: Stopping ProtocolHandler ["http-apr-8080"]
+10 07, 2013 5:41:08 午後 org.apache.coyote.AbstractProtocol stop
+情報: Stopping ProtocolHandler ["ajp-apr-8009"]
+10 07, 2013 5:41:08 午後 org.apache.coyote.AbstractProtocol destroy
+情報: Destroying ProtocolHandler ["http-apr-8080"]
+10 07, 2013 5:41:08 午後 org.apache.coyote.AbstractProtocol destroy
+情報: Destroying ProtocolHandler ["ajp-apr-8009"]
+10 07, 2013 5:43:28 午後 org.apache.catalina.core.AprLifecycleListener init
+情報: Loaded APR based Apache Tomcat Native library 1.1.27 using APR version 1.4.6.
+10 07, 2013 5:43:28 午後 org.apache.catalina.core.AprLifecycleListener init
+情報: APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+10 07, 2013 5:43:29 午後 org.apache.catalina.core.AprLifecycleListener initializeSSL
+情報: OpenSSL successfully initialized (OpenSSL 1.0.1d 5 Feb 2013)
+10 07, 2013 5:43:29 午後 org.apache.coyote.AbstractProtocol init
+情報: Initializing ProtocolHandler ["http-apr-8080"]
+10 07, 2013 5:43:29 午後 org.apache.coyote.AbstractProtocol init
+情報: Initializing ProtocolHandler ["ajp-apr-8009"]
+10 07, 2013 5:43:29 午後 org.apache.catalina.startup.Catalina load
+情報: Initialization processed in 1602 ms
+10 07, 2013 5:43:29 午後 org.apache.catalina.core.StandardService startInternal
+情報: サービス Catalina を起動します
+10 07, 2013 5:43:29 午後 org.apache.catalina.core.StandardEngine startInternal
+情報: Starting Servlet Engine: Apache Tomcat/7.0.42
+10 07, 2013 5:43:29 午後 org.apache.catalina.loader.WebappClassLoader validateJarFile
+情報: validateJarFile(D:\develop\workspace\fusion\target\fusion\WEB-INF\lib\javax.servlet-api-3.1.0.jar) - jar not loaded. See Servlet Spec 2.3, section 9.7.2. Offending class: javax/servlet/Servlet.class
+10 07, 2013 5:43:41 午後 org.apache.catalina.startup.HostConfig deployDirectory
+情報: Webアプリケーションディレクトリ D:\develop\tomcat7042\webapps\docs を配備します
+10 07, 2013 5:43:41 午後 org.apache.catalina.startup.HostConfig deployDirectory
+情報: Webアプリケーションディレクトリ D:\develop\tomcat7042\webapps\examples を配備します
+10 07, 2013 5:43:41 午後 org.apache.catalina.startup.HostConfig deployDirectory
+情報: Webアプリケーションディレクトリ D:\develop\tomcat7042\webapps\host-manager を配備します
+10 07, 2013 5:43:41 午後 org.apache.catalina.startup.HostConfig deployDirectory
+情報: Webアプリケーションディレクトリ D:\develop\tomcat7042\webapps\manager を配備します
+10 07, 2013 5:43:41 午後 org.apache.catalina.startup.HostConfig deployDirectory
+情報: Webアプリケーションディレクトリ D:\develop\tomcat7042\webapps\ROOT を配備します
+10 07, 2013 5:43:41 午後 org.apache.coyote.AbstractProtocol start
+情報: Starting ProtocolHandler ["http-apr-8080"]
+10 07, 2013 5:43:41 午後 org.apache.coyote.AbstractProtocol start
+情報: Starting ProtocolHandler ["ajp-apr-8009"]
+10 07, 2013 5:43:41 午後 org.apache.catalina.startup.Catalina start
+情報: Server startup in 12558 ms
+10 07, 2013 5:45:58 午後 org.apache.catalina.core.AprLifecycleListener init
+情報: Loaded APR based Apache Tomcat Native library 1.1.27 using APR version 1.4.6.
+10 07, 2013 5:45:58 午後 org.apache.catalina.core.AprLifecycleListener init
+情報: APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+10 07, 2013 5:45:59 午後 org.apache.catalina.core.AprLifecycleListener initializeSSL
+情報: OpenSSL successfully initialized (OpenSSL 1.0.1d 5 Feb 2013)
+10 07, 2013 5:45:59 午後 org.apache.coyote.AbstractProtocol init
+情報: Initializing ProtocolHandler ["http-apr-8080"]
+10 07, 2013 5:45:59 午後 org.apache.coyote.AbstractProtocol init
+重大: Failed to initialize end point associated with ProtocolHandler ["http-apr-8080"]
+java.lang.Exception: Socket bind failed: [730048] ????A?e?\?P?b?g ?A?h???X???μ??v???g?R???A?l?b?g???[
+	at org.apache.tomcat.util.net.AprEndpoint.bind(AprEndpoint.java:446)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:610)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:429)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:981)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:559)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:814)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:640)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:665)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:281)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:455)
+
+10 07, 2013 5:45:59 午後 org.apache.catalina.core.StandardService initInternal
+重大: Failed to initialize connector [Connector[HTTP/1.1-8080]]
+org.apache.catalina.LifecycleException: Failed to initialize component [Connector[HTTP/1.1-8080]]
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:106)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:559)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:814)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:640)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:665)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:281)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:455)
+Caused by: org.apache.catalina.LifecycleException: プロトコルハンドラの初期化に失敗しました
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:983)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	... 12 more
+Caused by: java.lang.Exception: Socket bind failed: [730048] ????A?e?\?P?b?g ?A?h???X???μ??v???g?R???A?l?b?g???[
+	at org.apache.tomcat.util.net.AprEndpoint.bind(AprEndpoint.java:446)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:610)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:429)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:981)
+	... 13 more
+
+10 07, 2013 5:45:59 午後 org.apache.coyote.AbstractProtocol init
+情報: Initializing ProtocolHandler ["ajp-apr-8009"]
+10 07, 2013 5:45:59 午後 org.apache.coyote.AbstractProtocol init
+重大: Failed to initialize end point associated with ProtocolHandler ["ajp-apr-8009"]
+java.lang.Exception: Socket bind failed: [730048] ????A?e?\?P?b?g ?A?h???X???μ??v???g?R???A?l?b?g???[
+	at org.apache.tomcat.util.net.AprEndpoint.bind(AprEndpoint.java:446)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:610)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:429)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:981)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:559)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:814)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:640)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:665)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:281)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:455)
+
+10 07, 2013 5:45:59 午後 org.apache.catalina.core.StandardService initInternal
+重大: Failed to initialize connector [Connector[AJP/1.3-8009]]
+org.apache.catalina.LifecycleException: Failed to initialize component [Connector[AJP/1.3-8009]]
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:106)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:559)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:814)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:640)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:665)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:281)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:455)
+Caused by: org.apache.catalina.LifecycleException: プロトコルハンドラの初期化に失敗しました
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:983)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	... 12 more
+Caused by: java.lang.Exception: Socket bind failed: [730048] ????A?e?\?P?b?g ?A?h???X???μ??v???g?R???A?l?b?g???[
+	at org.apache.tomcat.util.net.AprEndpoint.bind(AprEndpoint.java:446)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:610)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:429)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:981)
+	... 13 more
+
+10 07, 2013 5:45:59 午後 org.apache.catalina.startup.Catalina load
+情報: Initialization processed in 1726 ms
+10 07, 2013 5:45:59 午後 org.apache.catalina.core.StandardService startInternal
+情報: サービス Catalina を起動します
+10 07, 2013 5:45:59 午後 org.apache.catalina.core.StandardEngine startInternal
+情報: Starting Servlet Engine: Apache Tomcat/7.0.42
+10 07, 2013 5:45:59 午後 org.apache.catalina.loader.WebappClassLoader validateJarFile
+情報: validateJarFile(D:\develop\workspace\fusion\target\fusion\WEB-INF\lib\javax.servlet-api-3.1.0.jar) - jar not loaded. See Servlet Spec 2.3, section 9.7.2. Offending class: javax/servlet/Servlet.class
+10 07, 2013 5:46:24 午後 org.apache.catalina.startup.HostConfig deployDirectory
+情報: Webアプリケーションディレクトリ D:\develop\tomcat7042\webapps\docs を配備します
+10 07, 2013 5:46:25 午後 org.apache.catalina.startup.HostConfig deployDirectory
+情報: Webアプリケーションディレクトリ D:\develop\tomcat7042\webapps\examples を配備します
+10 07, 2013 5:46:26 午後 org.apache.catalina.startup.HostConfig deployDirectory
+情報: Webアプリケーションディレクトリ D:\develop\tomcat7042\webapps\host-manager を配備します
+10 07, 2013 5:46:26 午後 org.apache.catalina.startup.HostConfig deployDirectory
+情報: Webアプリケーションディレクトリ D:\develop\tomcat7042\webapps\manager を配備します
+10 07, 2013 5:46:26 午後 org.apache.catalina.startup.HostConfig deployDirectory
+情報: Webアプリケーションディレクトリ D:\develop\tomcat7042\webapps\ROOT を配備します
+10 07, 2013 5:46:26 午後 org.apache.catalina.startup.Catalina start
+情報: Server startup in 26786 ms
+10 07, 2013 5:46:26 午後 org.apache.catalina.core.StandardServer await
+重大: StandardServer.await: create[localhost:8005]: 
+java.net.BindException: Address already in use: JVM_Bind
+	at java.net.DualStackPlainSocketImpl.bind0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketBind(DualStackPlainSocketImpl.java:106)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:376)
+	at java.net.PlainSocketImpl.bind(PlainSocketImpl.java:190)
+	at java.net.ServerSocket.bind(ServerSocket.java:376)
+	at java.net.ServerSocket.<init>(ServerSocket.java:237)
+	at org.apache.catalina.core.StandardServer.await(StandardServer.java:427)
+	at org.apache.catalina.startup.Catalina.await(Catalina.java:779)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:725)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:322)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:456)
+
+10 07, 2013 5:46:26 午後 org.apache.coyote.AbstractProtocol pause
+情報: Pausing ProtocolHandler ["http-apr-8080"]
+10 07, 2013 5:46:26 午後 org.apache.coyote.AbstractProtocol pause
+情報: Pausing ProtocolHandler ["ajp-apr-8009"]
+10 07, 2013 5:46:26 午後 org.apache.catalina.core.StandardService stopInternal
+情報: サービス Catalina を停止します
+10 07, 2013 5:46:26 午後 org.apache.catalina.loader.WebappClassLoader clearReferencesJdbc
+重大: The web application [/fusion] registered the JDBC driver [com.mysql.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+10 07, 2013 5:46:26 午後 org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+重大: The web application [/fusion] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak.
+10 07, 2013 5:46:26 午後 org.apache.coyote.AbstractProtocol stop
+情報: Stopping ProtocolHandler ["http-apr-8080"]
+10 07, 2013 5:46:26 午後 org.apache.coyote.AbstractProtocol destroy
+情報: Destroying ProtocolHandler ["http-apr-8080"]
+10 07, 2013 5:46:26 午後 org.apache.coyote.AbstractProtocol stop
+情報: Stopping ProtocolHandler ["ajp-apr-8009"]
+10 07, 2013 5:46:26 午後 org.apache.coyote.AbstractProtocol destroy
+情報: Destroying ProtocolHandler ["ajp-apr-8009"]
+10 07, 2013 5:52:11 午後 org.apache.catalina.core.AprLifecycleListener init
+情報: Loaded APR based Apache Tomcat Native library 1.1.27 using APR version 1.4.6.
+10 07, 2013 5:52:11 午後 org.apache.catalina.core.AprLifecycleListener init
+情報: APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+10 07, 2013 5:52:12 午後 org.apache.catalina.core.AprLifecycleListener initializeSSL
+情報: OpenSSL successfully initialized (OpenSSL 1.0.1d 5 Feb 2013)
+10 07, 2013 5:52:13 午後 org.apache.coyote.AbstractProtocol init
+情報: Initializing ProtocolHandler ["http-apr-8080"]
+10 07, 2013 5:52:13 午後 org.apache.coyote.AbstractProtocol init
+重大: Failed to initialize end point associated with ProtocolHandler ["http-apr-8080"]
+java.lang.Exception: Socket bind failed: [730048] ????A?e?\?P?b?g ?A?h???X???μ??v???g?R???A?l?b?g???[
+	at org.apache.tomcat.util.net.AprEndpoint.bind(AprEndpoint.java:446)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:610)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:429)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:981)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:559)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:814)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:640)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:665)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:281)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:455)
+
+10 07, 2013 5:52:13 午後 org.apache.catalina.core.StandardService initInternal
+重大: Failed to initialize connector [Connector[HTTP/1.1-8080]]
+org.apache.catalina.LifecycleException: Failed to initialize component [Connector[HTTP/1.1-8080]]
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:106)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:559)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:814)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:640)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:665)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:281)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:455)
+Caused by: org.apache.catalina.LifecycleException: プロトコルハンドラの初期化に失敗しました
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:983)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	... 12 more
+Caused by: java.lang.Exception: Socket bind failed: [730048] ????A?e?\?P?b?g ?A?h???X???μ??v???g?R???A?l?b?g???[
+	at org.apache.tomcat.util.net.AprEndpoint.bind(AprEndpoint.java:446)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:610)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:429)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:981)
+	... 13 more
+
+10 07, 2013 5:52:13 午後 org.apache.coyote.AbstractProtocol init
+情報: Initializing ProtocolHandler ["ajp-apr-8009"]
+10 07, 2013 5:52:13 午後 org.apache.coyote.AbstractProtocol init
+重大: Failed to initialize end point associated with ProtocolHandler ["ajp-apr-8009"]
+java.lang.Exception: Socket bind failed: [730048] ????A?e?\?P?b?g ?A?h???X???μ??v???g?R???A?l?b?g???[
+	at org.apache.tomcat.util.net.AprEndpoint.bind(AprEndpoint.java:446)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:610)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:429)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:981)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:559)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:814)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:640)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:665)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:281)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:455)
+
+10 07, 2013 5:52:13 午後 org.apache.catalina.core.StandardService initInternal
+重大: Failed to initialize connector [Connector[AJP/1.3-8009]]
+org.apache.catalina.LifecycleException: Failed to initialize component [Connector[AJP/1.3-8009]]
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:106)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:559)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:814)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:640)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:665)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:281)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:455)
+Caused by: org.apache.catalina.LifecycleException: プロトコルハンドラの初期化に失敗しました
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:983)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	... 12 more
+Caused by: java.lang.Exception: Socket bind failed: [730048] ????A?e?\?P?b?g ?A?h???X???μ??v???g?R???A?l?b?g???[
+	at org.apache.tomcat.util.net.AprEndpoint.bind(AprEndpoint.java:446)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:610)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:429)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:981)
+	... 13 more
+
+10 07, 2013 5:52:13 午後 org.apache.catalina.startup.Catalina load
+情報: Initialization processed in 1567 ms
+10 07, 2013 5:52:13 午後 org.apache.catalina.core.StandardService startInternal
+情報: サービス Catalina を起動します
+10 07, 2013 5:52:13 午後 org.apache.catalina.core.StandardEngine startInternal
+情報: Starting Servlet Engine: Apache Tomcat/7.0.42
+10 07, 2013 5:52:13 午後 org.apache.catalina.loader.WebappClassLoader validateJarFile
+情報: validateJarFile(D:\develop\workspace\fusion\target\fusion\WEB-INF\lib\javax.servlet-api-3.1.0.jar) - jar not loaded. See Servlet Spec 2.3, section 9.7.2. Offending class: javax/servlet/Servlet.class
+10 07, 2013 5:52:28 午後 org.apache.catalina.startup.HostConfig deployDirectory
+情報: Webアプリケーションディレクトリ D:\develop\tomcat7042\webapps\docs を配備します
+10 07, 2013 5:52:28 午後 org.apache.catalina.startup.HostConfig deployDirectory
+情報: Webアプリケーションディレクトリ D:\develop\tomcat7042\webapps\examples を配備します
+10 07, 2013 5:52:28 午後 org.apache.catalina.startup.HostConfig deployDirectory
+情報: Webアプリケーションディレクトリ D:\develop\tomcat7042\webapps\host-manager を配備します
+10 07, 2013 5:52:28 午後 org.apache.catalina.startup.HostConfig deployDirectory
+情報: Webアプリケーションディレクトリ D:\develop\tomcat7042\webapps\manager を配備します
+10 07, 2013 5:52:28 午後 org.apache.catalina.startup.HostConfig deployDirectory
+情報: Webアプリケーションディレクトリ D:\develop\tomcat7042\webapps\ROOT を配備します
+10 07, 2013 5:52:28 午後 org.apache.catalina.startup.Catalina start
+情報: Server startup in 15523 ms
+10 07, 2013 5:52:28 午後 org.apache.catalina.core.StandardServer await
+重大: StandardServer.await: create[localhost:8005]: 
+java.net.BindException: Address already in use: JVM_Bind
+	at java.net.DualStackPlainSocketImpl.bind0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketBind(DualStackPlainSocketImpl.java:106)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:376)
+	at java.net.PlainSocketImpl.bind(PlainSocketImpl.java:190)
+	at java.net.ServerSocket.bind(ServerSocket.java:376)
+	at java.net.ServerSocket.<init>(ServerSocket.java:237)
+	at org.apache.catalina.core.StandardServer.await(StandardServer.java:427)
+	at org.apache.catalina.startup.Catalina.await(Catalina.java:779)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:725)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:322)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:456)
+
+10 07, 2013 5:52:28 午後 org.apache.coyote.AbstractProtocol pause
+情報: Pausing ProtocolHandler ["http-apr-8080"]
+10 07, 2013 5:52:28 午後 org.apache.coyote.AbstractProtocol pause
+情報: Pausing ProtocolHandler ["ajp-apr-8009"]
+10 07, 2013 5:52:28 午後 org.apache.catalina.core.StandardService stopInternal
+情報: サービス Catalina を停止します
+10 07, 2013 5:52:28 午後 org.apache.catalina.loader.WebappClassLoader clearReferencesJdbc
+重大: The web application [/fusion] registered the JDBC driver [com.mysql.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+10 07, 2013 5:52:28 午後 org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+重大: The web application [/fusion] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak.
+10 07, 2013 5:52:28 午後 org.apache.coyote.AbstractProtocol stop
+情報: Stopping ProtocolHandler ["http-apr-8080"]
+10 07, 2013 5:52:28 午後 org.apache.coyote.AbstractProtocol destroy
+情報: Destroying ProtocolHandler ["http-apr-8080"]
+10 07, 2013 5:52:28 午後 org.apache.coyote.AbstractProtocol stop
+情報: Stopping ProtocolHandler ["ajp-apr-8009"]
+10 07, 2013 5:52:28 午後 org.apache.coyote.AbstractProtocol destroy
+情報: Destroying ProtocolHandler ["ajp-apr-8009"]
+10 07, 2013 5:52:39 午後 org.apache.catalina.core.StandardServer await
+情報: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+10 07, 2013 5:52:39 午後 org.apache.coyote.AbstractProtocol pause
+情報: Pausing ProtocolHandler ["http-apr-8080"]
+10 07, 2013 5:52:39 午後 org.apache.coyote.AbstractProtocol pause
+情報: Pausing ProtocolHandler ["ajp-apr-8009"]
+10 07, 2013 5:52:39 午後 org.apache.catalina.core.StandardService stopInternal
+情報: サービス Catalina を停止します
+10 07, 2013 5:52:39 午後 org.apache.catalina.loader.WebappClassLoader clearReferencesJdbc
+重大: The web application [/fusion] registered the JDBC driver [com.mysql.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+10 07, 2013 5:52:39 午後 org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+重大: The web application [/fusion] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak.
+10 07, 2013 5:52:39 午後 org.apache.coyote.AbstractProtocol stop
+情報: Stopping ProtocolHandler ["http-apr-8080"]
+10 07, 2013 5:52:39 午後 org.apache.coyote.AbstractProtocol stop
+情報: Stopping ProtocolHandler ["ajp-apr-8009"]
+10 07, 2013 5:52:39 午後 org.apache.coyote.AbstractProtocol destroy
+情報: Destroying ProtocolHandler ["http-apr-8080"]
+10 07, 2013 5:52:39 午後 org.apache.coyote.AbstractProtocol destroy
+情報: Destroying ProtocolHandler ["ajp-apr-8009"]
+10 07, 2013 5:52:44 午後 org.apache.catalina.core.AprLifecycleListener init
+情報: Loaded APR based Apache Tomcat Native library 1.1.27 using APR version 1.4.6.
+10 07, 2013 5:52:44 午後 org.apache.catalina.core.AprLifecycleListener init
+情報: APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+10 07, 2013 5:52:45 午後 org.apache.catalina.core.AprLifecycleListener initializeSSL
+情報: OpenSSL successfully initialized (OpenSSL 1.0.1d 5 Feb 2013)
+10 07, 2013 5:52:45 午後 org.apache.coyote.AbstractProtocol init
+情報: Initializing ProtocolHandler ["http-apr-8080"]
+10 07, 2013 5:52:45 午後 org.apache.coyote.AbstractProtocol init
+情報: Initializing ProtocolHandler ["ajp-apr-8009"]
+10 07, 2013 5:52:45 午後 org.apache.catalina.startup.Catalina load
+情報: Initialization processed in 1605 ms
+10 07, 2013 5:52:46 午後 org.apache.catalina.core.StandardService startInternal
+情報: サービス Catalina を起動します
+10 07, 2013 5:52:46 午後 org.apache.catalina.core.StandardEngine startInternal
+情報: Starting Servlet Engine: Apache Tomcat/7.0.42
+10 07, 2013 5:52:46 午後 org.apache.catalina.loader.WebappClassLoader validateJarFile
+情報: validateJarFile(D:\develop\workspace\fusion\target\fusion\WEB-INF\lib\javax.servlet-api-3.1.0.jar) - jar not loaded. See Servlet Spec 2.3, section 9.7.2. Offending class: javax/servlet/Servlet.class
+10 07, 2013 5:52:58 午後 org.apache.catalina.startup.HostConfig deployDirectory
+情報: Webアプリケーションディレクトリ D:\develop\tomcat7042\webapps\docs を配備します
+10 07, 2013 5:52:58 午後 org.apache.catalina.startup.HostConfig deployDirectory
+情報: Webアプリケーションディレクトリ D:\develop\tomcat7042\webapps\examples を配備します
+10 07, 2013 5:52:58 午後 org.apache.catalina.startup.HostConfig deployDirectory
+情報: Webアプリケーションディレクトリ D:\develop\tomcat7042\webapps\host-manager を配備します
+10 07, 2013 5:52:58 午後 org.apache.catalina.startup.HostConfig deployDirectory
+情報: Webアプリケーションディレクトリ D:\develop\tomcat7042\webapps\manager を配備します
+10 07, 2013 5:52:58 午後 org.apache.catalina.startup.HostConfig deployDirectory
+情報: Webアプリケーションディレクトリ D:\develop\tomcat7042\webapps\ROOT を配備します
+10 07, 2013 5:52:58 午後 org.apache.coyote.AbstractProtocol start
+情報: Starting ProtocolHandler ["http-apr-8080"]
+10 07, 2013 5:52:59 午後 org.apache.coyote.AbstractProtocol start
+情報: Starting ProtocolHandler ["ajp-apr-8009"]
+10 07, 2013 5:52:59 午後 org.apache.catalina.startup.Catalina start
+情報: Server startup in 13106 ms
+10 07, 2013 5:57:09 午後 org.apache.catalina.core.StandardServer await
+情報: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+10 07, 2013 5:57:09 午後 org.apache.coyote.AbstractProtocol pause
+情報: Pausing ProtocolHandler ["http-apr-8080"]
+10 07, 2013 5:57:10 午後 org.apache.coyote.AbstractProtocol pause
+情報: Pausing ProtocolHandler ["ajp-apr-8009"]
+10 07, 2013 5:57:10 午後 org.apache.catalina.core.StandardService stopInternal
+情報: サービス Catalina を停止します
+10 07, 2013 5:57:10 午後 org.apache.catalina.loader.WebappClassLoader clearReferencesJdbc
+重大: The web application [/fusion] registered the JDBC driver [com.mysql.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+10 07, 2013 5:57:10 午後 org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+重大: The web application [/fusion] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak.
+10 07, 2013 5:57:10 午後 org.apache.coyote.AbstractProtocol stop
+情報: Stopping ProtocolHandler ["http-apr-8080"]
+10 07, 2013 5:57:10 午後 org.apache.coyote.AbstractProtocol stop
+情報: Stopping ProtocolHandler ["ajp-apr-8009"]
+10 07, 2013 5:57:10 午後 org.apache.coyote.AbstractProtocol destroy
+情報: Destroying ProtocolHandler ["http-apr-8080"]
+10 07, 2013 5:57:10 午後 org.apache.coyote.AbstractProtocol destroy
+情報: Destroying ProtocolHandler ["ajp-apr-8009"]

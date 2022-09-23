@@ -1,0 +1,112 @@
+10 07, 2013 5:31:57 ŒßŒã org.apache.catalina.core.ApplicationContext log
+î•ñ: No Spring WebApplicationInitializer types detected on classpath
+10 07, 2013 5:31:57 ŒßŒã org.apache.catalina.core.ApplicationContext log
+î•ñ: Initializing Spring root WebApplicationContext
+10 07, 2013 5:32:02 ŒßŒã org.apache.catalina.core.ApplicationContext log
+î•ñ: ContextListener: contextInitialized()
+10 07, 2013 5:32:02 ŒßŒã org.apache.catalina.core.ApplicationContext log
+î•ñ: SessionListener: contextInitialized()
+10 07, 2013 5:32:02 ŒßŒã org.apache.catalina.core.ApplicationContext log
+î•ñ: ContextListener: attributeAdded('org.apache.jasper.compiler.TldLocationsCache', 'org.apache.jasper.compiler.TldLocationsCache@4537336d')
+10 07, 2013 5:34:20 ŒßŒã org.apache.catalina.core.ApplicationContext log
+î•ñ: SessionListener: contextDestroyed()
+10 07, 2013 5:34:20 ŒßŒã org.apache.catalina.core.ApplicationContext log
+î•ñ: ContextListener: contextDestroyed()
+10 07, 2013 5:34:20 ŒßŒã org.apache.catalina.core.ApplicationContext log
+î•ñ: Closing Spring root WebApplicationContext
+10 07, 2013 5:36:57 ŒßŒã org.apache.catalina.core.ApplicationContext log
+î•ñ: No Spring WebApplicationInitializer types detected on classpath
+10 07, 2013 5:36:57 ŒßŒã org.apache.catalina.core.ApplicationContext log
+î•ñ: Initializing Spring root WebApplicationContext
+10 07, 2013 5:37:03 ŒßŒã org.apache.catalina.core.ApplicationContext log
+î•ñ: ContextListener: contextInitialized()
+10 07, 2013 5:37:03 ŒßŒã org.apache.catalina.core.ApplicationContext log
+î•ñ: SessionListener: contextInitialized()
+10 07, 2013 5:37:03 ŒßŒã org.apache.catalina.core.ApplicationContext log
+î•ñ: ContextListener: attributeAdded('org.apache.jasper.compiler.TldLocationsCache', 'org.apache.jasper.compiler.TldLocationsCache@346bc53f')
+10 07, 2013 5:38:56 ŒßŒã org.apache.catalina.core.ApplicationContext log
+î•ñ: SessionListener: contextDestroyed()
+10 07, 2013 5:38:56 ŒßŒã org.apache.catalina.core.ApplicationContext log
+î•ñ: ContextListener: contextDestroyed()
+10 07, 2013 5:38:56 ŒßŒã org.apache.catalina.core.ApplicationContext log
+î•ñ: Closing Spring root WebApplicationContext
+10 07, 2013 5:40:09 ŒßŒã org.apache.catalina.core.ApplicationContext log
+î•ñ: No Spring WebApplicationInitializer types detected on classpath
+10 07, 2013 5:40:09 ŒßŒã org.apache.catalina.core.ApplicationContext log
+î•ñ: Initializing Spring root WebApplicationContext
+10 07, 2013 5:40:15 ŒßŒã org.apache.catalina.core.ApplicationContext log
+î•ñ: ContextListener: contextInitialized()
+10 07, 2013 5:40:15 ŒßŒã org.apache.catalina.core.ApplicationContext log
+î•ñ: SessionListener: contextInitialized()
+10 07, 2013 5:40:15 ŒßŒã org.apache.catalina.core.ApplicationContext log
+î•ñ: ContextListener: attributeAdded('org.apache.jasper.compiler.TldLocationsCache', 'org.apache.jasper.compiler.TldLocationsCache@346bc53f')
+10 07, 2013 5:41:07 ŒßŒã org.apache.catalina.core.ApplicationContext log
+î•ñ: SessionListener: contextDestroyed()
+10 07, 2013 5:41:07 ŒßŒã org.apache.catalina.core.ApplicationContext log
+î•ñ: ContextListener: contextDestroyed()
+10 07, 2013 5:41:08 ŒßŒã org.apache.catalina.core.ApplicationContext log
+î•ñ: Closing Spring root WebApplicationContext
+10 07, 2013 5:43:36 ŒßŒã org.apache.catalina.core.ApplicationContext log
+î•ñ: No Spring WebApplicationInitializer types detected on classpath
+10 07, 2013 5:43:36 ŒßŒã org.apache.catalina.core.ApplicationContext log
+î•ñ: Initializing Spring root WebApplicationContext
+10 07, 2013 5:43:41 ŒßŒã org.apache.catalina.core.ApplicationContext log
+î•ñ: ContextListener: contextInitialized()
+10 07, 2013 5:43:41 ŒßŒã org.apache.catalina.core.ApplicationContext log
+î•ñ: SessionListener: contextInitialized()
+10 07, 2013 5:43:41 ŒßŒã org.apache.catalina.core.ApplicationContext log
+î•ñ: ContextListener: attributeAdded('org.apache.jasper.compiler.TldLocationsCache', 'org.apache.jasper.compiler.TldLocationsCache@69ad1973')
+10 07, 2013 5:46:06 ŒßŒã org.apache.catalina.core.ApplicationContext log
+î•ñ: No Spring WebApplicationInitializer types detected on classpath
+10 07, 2013 5:46:19 ŒßŒã org.apache.catalina.core.ApplicationContext log
+î•ñ: Initializing Spring root WebApplicationContext
+10 07, 2013 5:46:26 ŒßŒã org.apache.catalina.core.ApplicationContext log
+î•ñ: ContextListener: contextInitialized()
+10 07, 2013 5:46:26 ŒßŒã org.apache.catalina.core.ApplicationContext log
+î•ñ: SessionListener: contextInitialized()
+10 07, 2013 5:46:26 ŒßŒã org.apache.catalina.core.ApplicationContext log
+î•ñ: ContextListener: attributeAdded('org.apache.jasper.compiler.TldLocationsCache', 'org.apache.jasper.compiler.TldLocationsCache@5a43a3e8')
+10 07, 2013 5:46:26 ŒßŒã org.apache.catalina.core.ApplicationContext log
+î•ñ: SessionListener: contextDestroyed()
+10 07, 2013 5:46:26 ŒßŒã org.apache.catalina.core.ApplicationContext log
+î•ñ: ContextListener: contextDestroyed()
+10 07, 2013 5:46:26 ŒßŒã org.apache.catalina.core.ApplicationContext log
+î•ñ: Closing Spring root WebApplicationContext
+10 07, 2013 5:52:20 ŒßŒã org.apache.catalina.core.ApplicationContext log
+î•ñ: No Spring WebApplicationInitializer types detected on classpath
+10 07, 2013 5:52:23 ŒßŒã org.apache.catalina.core.ApplicationContext log
+î•ñ: Initializing Spring root WebApplicationContext
+10 07, 2013 5:52:28 ŒßŒã org.apache.catalina.core.ApplicationContext log
+î•ñ: ContextListener: contextInitialized()
+10 07, 2013 5:52:28 ŒßŒã org.apache.catalina.core.ApplicationContext log
+î•ñ: SessionListener: contextInitialized()
+10 07, 2013 5:52:28 ŒßŒã org.apache.catalina.core.ApplicationContext log
+î•ñ: ContextListener: attributeAdded('org.apache.jasper.compiler.TldLocationsCache', 'org.apache.jasper.compiler.TldLocationsCache@26173cf9')
+10 07, 2013 5:52:28 ŒßŒã org.apache.catalina.core.ApplicationContext log
+î•ñ: SessionListener: contextDestroyed()
+10 07, 2013 5:52:28 ŒßŒã org.apache.catalina.core.ApplicationContext log
+î•ñ: ContextListener: contextDestroyed()
+10 07, 2013 5:52:28 ŒßŒã org.apache.catalina.core.ApplicationContext log
+î•ñ: Closing Spring root WebApplicationContext
+10 07, 2013 5:52:39 ŒßŒã org.apache.catalina.core.ApplicationContext log
+î•ñ: SessionListener: contextDestroyed()
+10 07, 2013 5:52:39 ŒßŒã org.apache.catalina.core.ApplicationContext log
+î•ñ: ContextListener: contextDestroyed()
+10 07, 2013 5:52:39 ŒßŒã org.apache.catalina.core.ApplicationContext log
+î•ñ: Closing Spring root WebApplicationContext
+10 07, 2013 5:52:52 ŒßŒã org.apache.catalina.core.ApplicationContext log
+î•ñ: No Spring WebApplicationInitializer types detected on classpath
+10 07, 2013 5:52:53 ŒßŒã org.apache.catalina.core.ApplicationContext log
+î•ñ: Initializing Spring root WebApplicationContext
+10 07, 2013 5:52:58 ŒßŒã org.apache.catalina.core.ApplicationContext log
+î•ñ: ContextListener: contextInitialized()
+10 07, 2013 5:52:58 ŒßŒã org.apache.catalina.core.ApplicationContext log
+î•ñ: SessionListener: contextInitialized()
+10 07, 2013 5:52:58 ŒßŒã org.apache.catalina.core.ApplicationContext log
+î•ñ: ContextListener: attributeAdded('org.apache.jasper.compiler.TldLocationsCache', 'org.apache.jasper.compiler.TldLocationsCache@64936068')
+10 07, 2013 5:57:10 ŒßŒã org.apache.catalina.core.ApplicationContext log
+î•ñ: SessionListener: contextDestroyed()
+10 07, 2013 5:57:10 ŒßŒã org.apache.catalina.core.ApplicationContext log
+î•ñ: ContextListener: contextDestroyed()
+10 07, 2013 5:57:10 ŒßŒã org.apache.catalina.core.ApplicationContext log
+î•ñ: Closing Spring root WebApplicationContext

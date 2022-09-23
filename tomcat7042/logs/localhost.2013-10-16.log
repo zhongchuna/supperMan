@@ -1,0 +1,46 @@
+10 16, 2013 3:22:04 ŒßŒã org.apache.catalina.core.ApplicationContext log
+î•ñ: No Spring WebApplicationInitializer types detected on classpath
+10 16, 2013 3:22:05 ŒßŒã org.apache.catalina.core.ApplicationContext log
+î•ñ: Initializing Spring root WebApplicationContext
+10 16, 2013 3:22:13 ŒßŒã org.apache.catalina.core.ApplicationContext log
+î•ñ: ContextListener: contextInitialized()
+10 16, 2013 3:22:13 ŒßŒã org.apache.catalina.core.ApplicationContext log
+î•ñ: SessionListener: contextInitialized()
+10 16, 2013 3:22:13 ŒßŒã org.apache.catalina.core.ApplicationContext log
+î•ñ: ContextListener: attributeAdded('org.apache.jasper.compiler.TldLocationsCache', 'org.apache.jasper.compiler.TldLocationsCache@38baa1c0')
+10 16, 2013 3:23:29 ŒßŒã org.apache.catalina.core.ApplicationContext log
+î•ñ: SessionListener: contextDestroyed()
+10 16, 2013 3:23:29 ŒßŒã org.apache.catalina.core.ApplicationContext log
+î•ñ: ContextListener: contextDestroyed()
+10 16, 2013 3:23:30 ŒßŒã org.apache.catalina.core.ApplicationContext log
+î•ñ: Closing Spring root WebApplicationContext
+10 16, 2013 3:24:09 ŒßŒã org.apache.catalina.core.ApplicationContext log
+î•ñ: No Spring WebApplicationInitializer types detected on classpath
+10 16, 2013 3:24:09 ŒßŒã org.apache.catalina.core.ApplicationContext log
+î•ñ: Initializing Spring root WebApplicationContext
+10 16, 2013 3:24:18 ŒßŒã org.apache.catalina.core.ApplicationContext log
+î•ñ: Initializing Spring root WebApplicationContext
+10 16, 2013 3:24:20 ŒßŒã org.apache.catalina.core.ApplicationContext log
+î•ñ: Set web app root system property: 'tutorial.root' = [D:\develop\tomcat7042\webapps\spring-security-samples-tutorial-3.0.7.RELEASE\]
+10 16, 2013 3:24:20 ŒßŒã org.apache.catalina.core.ApplicationContext log
+î•ñ: Initializing log4j from [D:\develop\tomcat7042\webapps\spring-security-samples-tutorial-3.0.7.RELEASE\WEB-INF\classes\log4j.properties]
+10 16, 2013 3:24:20 ŒßŒã org.apache.catalina.core.ApplicationContext log
+î•ñ: Initializing Spring FrameworkServlet 'bank'
+10 16, 2013 3:24:21 ŒßŒã org.apache.catalina.core.ApplicationContext log
+î•ñ: ContextListener: contextInitialized()
+10 16, 2013 3:24:21 ŒßŒã org.apache.catalina.core.ApplicationContext log
+î•ñ: SessionListener: contextInitialized()
+10 16, 2013 3:24:21 ŒßŒã org.apache.catalina.core.ApplicationContext log
+î•ñ: ContextListener: attributeAdded('org.apache.jasper.compiler.TldLocationsCache', 'org.apache.jasper.compiler.TldLocationsCache@9d7de00')
+10 16, 2013 3:33:37 ŒßŒã org.apache.catalina.core.ApplicationContext log
+î•ñ: Destroying Spring FrameworkServlet 'bank'
+10 16, 2013 3:33:37 ŒßŒã org.apache.catalina.core.ApplicationContext log
+î•ñ: Shutting down log4j
+10 16, 2013 3:33:37 ŒßŒã org.apache.catalina.core.ApplicationContext log
+î•ñ: Closing Spring root WebApplicationContext
+10 16, 2013 3:33:37 ŒßŒã org.apache.catalina.core.ApplicationContext log
+î•ñ: SessionListener: contextDestroyed()
+10 16, 2013 3:33:37 ŒßŒã org.apache.catalina.core.ApplicationContext log
+î•ñ: ContextListener: contextDestroyed()
+10 16, 2013 3:33:37 ŒßŒã org.apache.catalina.core.ApplicationContext log
+î•ñ: Closing Spring root WebApplicationContext
