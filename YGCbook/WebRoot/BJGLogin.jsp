@@ -1,7 +1,7 @@
 <%@ page language="java" import="java.util.*" contentType="text/html; charset=utf-8"%>
 <html>
 <head>
-<title> 光哥高级会员注册页面</title>
+<title> 时光俱乐部高级会员注册页面</title>
 
 
 	<style>
@@ -28,7 +28,29 @@
 	
 	<script src ="jquery-3.2.1.min.js">
 	</script>
-	<script language="javascript" type="text/javascript">
+	<body background="resources/images/test.png" style="text-align:center">
+	<form action="userInfoReg">
+
+	            请输入高级会员姓名<input type="text" id="username" name="username" onblur="executeAjax()"><font color="red" id="flag"></font><br>
+	            请输入您高级的密码<input type="password" id="password" name="password" onblur="checkPwd()"><br>
+	             请输入您的性别 : 男<input type="radio" name="sex" value="0">  
+	        女<input type="radio" name="sex" value="1">  
+	        秘密<input type="radio" name="sex" value="2"><br>
+	               &nbsp&nbsp&nbsp请输入您的年收：<select name="major">
+	           <option value="0">1千万以内</option>
+	           <option value="1">2千万以内</option>
+	           <option value="2">5千万以上</option>
+	           <option value="3">1亿以上</option>
+	        </select><br>
+	               简介<input type="textarea" id="intro" name="intro"><br>
+	               爱好：登山<input type="CheckBox" id="hobby" name="hobby" value="0">
+	        冲浪<input type="CheckBox" id="hobby" name="hobby" value="1">
+	        跳伞<input type="CheckBox" id="hobby" name="hobby" value="2">
+	        <br>
+	        <input type="submit" value="提交" id="submit">
+	        <input type="reset" value="重置">
+	  </form>    
+</body><script language="javascript" type="text/javascript">
 		
 		function changeActionName(actionName){
 	        document.getElementById("form").action = actionName;
@@ -83,28 +105,6 @@
 	
 </head>
 
-<body background="resources/images/test.png" style="text-align:center">
-	<form action="userInfoReg.do">
 
-	            请输入高级会员姓名<input type="text" id="username" name="username" onblur="executeAjax()"><font color="red" id="flag"></font><br>
-	            请输入您高级的密码<input type="password" id="password" name="password"  onblur="checkPwd()"><br>
-	             请输入您的性别 : 男<input type="radio"  name="sex" value=0>  
-	        女<input type="radio"  name="sex" value=1>  
-	        秘密<input type="radio"  name="sex" value=2><br>
-	               &nbsp&nbsp&nbsp请输入您的年收：<select name="major">
-	           <option value="0">1千万以内</option>
-	           <option value="1">2千万以内</option>
-	           <option value="2">5千万以上</option>
-	           <option value="2">1亿以上</option>
-	        </select><br>
-	               简介<input type="textarea" id="intro" name="intro"><br>
-	               爱好：登山<input type="CheckBox" id="hobby" name="hobby" value=0>
-	        冲浪<input type="CheckBox" id="hobby" name="hobby" value=1>
-	        跳伞<input type="CheckBox" id="hobby" name="hobby" value=2>
-	        <br>
-	        <input type="submit"value="提交" id="submit"></input>
-	        <input type="reset" value="重置"></input>
-	  </form>    
-</body>
 
 </html>

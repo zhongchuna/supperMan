@@ -323,8 +323,14 @@
 
 
 
-
-
+  <servlet>
+    <servlet-name>userInfoReg</servlet-name>
+    <servlet-class>shiGuang.Servlet.registerServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>userInfoReg</servlet-name>
+    <url-pattern>/userInfoReg</url-pattern>
+  </servlet-mapping>
 
 
 
