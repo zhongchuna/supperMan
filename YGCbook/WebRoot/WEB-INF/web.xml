@@ -331,6 +331,15 @@
     <servlet-name>userInfoReg</servlet-name>
     <url-pattern>/userInfoReg</url-pattern>
   </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>search888</servlet-name>
+    <servlet-class>shiGuang.Servlet.SearchServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>search888</servlet-name>
+    <url-pattern>/search</url-pattern>
+  </servlet-mapping>
 
 
 
