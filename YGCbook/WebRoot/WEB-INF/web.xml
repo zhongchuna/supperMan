@@ -333,11 +333,11 @@
   </servlet-mapping>
   
   <servlet>
-    <servlet-name>search888</servlet-name>
+    <servlet-name>search</servlet-name>
     <servlet-class>shiGuang.Servlet.SearchServlet</servlet-class>
   </servlet>
   <servlet-mapping>
-    <servlet-name>search888</servlet-name>
+    <servlet-name>search</servlet-name>
     <url-pattern>/search</url-pattern>
   </servlet-mapping>
 

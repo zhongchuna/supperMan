@@ -1,4 +1,6 @@
 <%@ page language="java" import="java.util.*" contentType="text/html; charset=utf-8"%>
+<%@page import="shiGuang.entity.UserInfo"%>
+<%@page import="shiGuang.entity.Hobby"%>
 <html>
 <head>
 <title> 时光俱乐部高级会员注册成功页面</title>
@@ -6,10 +8,19 @@
 	<script src ="jquery-3.2.1.min.js">
 	</script>
 	<body background="resources/images/test.png" style="text-align:center">
-	<form action="userInfoReg">
+	<form action="search">
+	<%if(UserInfo != null && Hobby != null){%>
+	   			   		
+	   			
+	   				<%for(UserInfo userinfo : Hobby ){%>
+	   			
+	
+	
+	
+	
 	            欢迎来到时光俱乐部，开启美好时光，引领时尚未来！<br>
 	            您的会员ID：<input type="text" id="" name=""><br>
-	            您的会员姓名：<input type="text" id="username" name="username" ><br>
+	            您的会员姓名：<input type="text" id="username" name ="username" value="<%=userinfo.getUsername()%>"><br>
 	            您的密码：<input type="text" id="password" name="password" onblur="checkPwd()"><br>
 	            您的性别 : 男<input type="radio" name="sex" value="0">  
 	        女<input type="radio" name="sex" value="1">  
@@ -24,6 +35,9 @@
 	        <input type="submit" value="确认" id="submit">
 	        <input type="submit" value="修改">
 	  </form>    
+	  <%}%>
+	  <%}%>
+	  
 </body><script language="javascript" type="text/javascript">
 		
 		function changeActionName(actionName){
