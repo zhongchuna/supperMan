@@ -9,34 +9,24 @@
 	</script>
 	<body background="resources/images/test.png" style="text-align:center">
 	<form action="search">
-	<%if(UserInfo != null && Hobby != null){%>
-	   			   		
-	   			
-	   				<%for(UserInfo userinfo : Hobby ){%>
-	   			
-	
-	
-	
 	
 	            欢迎来到时光俱乐部，开启美好时光，引领时尚未来！<br>
-	            您的会员ID：<input type="text" id="" name=""><br>
-	            您的会员姓名：<input type="text" id="username" name ="username" value="<%=userinfo.getUsername()%>"><br>
-	            您的密码：<input type="text" id="password" name="password" onblur="checkPwd()"><br>
+	            您的会员ID：<input type="text" id="" name="" value="88888888"><br>
+	            您的会员姓名：<input type="text" id="username" name ="username" value="皇帝"><br>
+	            您的密码：<input type="text" id="password" name="password" value="这个不能让知道" onblur="checkPwd()"><br>
 	            您的性别 : 男<input type="radio" name="sex" value="0">  
 	        女<input type="radio" name="sex" value="1">  
-	        秘密<input type="radio" name="sex" value="2"><br>
-	               &nbsp&nbsp&nbsp您的年收：<input type="text" name="" value=""> 
+	        秘密<input type="radio" name="sex" value="2" checked><br>
+	               &nbsp&nbsp&nbsp您的年收：<input type="text" name="" value="1亿九千七百八十万"> 
 	        </select><br>
-	               您的简介：<input type="textarea" id="intro" name="intro"><br>
-	               您的爱好：登山<input type="CheckBox" id="hobby" name="hobby" value="0">
-	        冲浪<input type="CheckBox" id="hobby" name="hobby" value="1">
-	        跳伞<input type="CheckBox" id="hobby" name="hobby" value="2">
+	               您的简介：<input type="textarea" id="intro" name="intro" value="见天地，见众生，见自己！"><br>
+	               您的爱好：登山<input type="CheckBox" id="hobby" name="hobby" value="0" checked>
+	        冲浪<input type="CheckBox" id="hobby" name="hobby" value="1" checked>
+	        跳伞<input type="CheckBox" id="hobby" name="hobby" value="2" checked>
 	        <br>
 	        <input type="submit" value="确认" id="submit">
 	        <input type="submit" value="修改">
 	  </form>    
-	  <%}%>
-	  <%}%>
 	  
 </body><script language="javascript" type="text/javascript">
 		
