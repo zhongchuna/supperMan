@@ -4,6 +4,7 @@
 <html>
 <head>
 <title> 时光俱乐部高级会员注册成功页面</title>
+
 	
 	<script src ="jquery-3.2.1.min.js">
 	</script>
@@ -12,7 +13,7 @@
 	
 	            欢迎来到时光俱乐部，开启美好时光，引领时尚未来！<br>
 	            您的会员ID：<input type="text" id="" name="" value="88888888"><br>
-	            您的会员姓名：<input type="text" id="username" name ="username" value="皇帝"><br>
+	            您的会员姓名：<input type="text" id="username" name ="username" ><br>
 	            您的密码：<input type="text" id="password" name="password" value="这个不能让知道" onblur="checkPwd()"><br>
 	            您的性别 : 男<input type="radio" name="sex" value="0">  
 	        女<input type="radio" name="sex" value="1">  
@@ -68,7 +69,6 @@
 	     	});  
 	    } 
 	      
-	       
 	   	function checkPwd(){
 	        var pwd=document.getElementById("password").value
 	        var regExp = /^[0-9]{4}$/;

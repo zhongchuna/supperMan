@@ -25,7 +25,7 @@ public class UserInfoDAO {
 			e.printStackTrace();
 		}catch (ClassNotFoundException e) {
 			e.printStackTrace();
-		}
+		}    
 		return (row == 1);
 	}
 
@@ -33,7 +33,6 @@ public class UserInfoDAO {
 	//用户表搜寻的时候调用的方法
     public List<UserInfo>selectUserInfo(String username,String password,String sex,String major,String intro) {
 	String sql = "";
-	
 	
 	return null;
     }

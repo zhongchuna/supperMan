@@ -36,7 +36,7 @@ public class SearchServlet extends HttpServlet{
 		
 		String[] hobbyArray =req.getParameterValues("hobby");
 		
-		Hobby hobby =new Hobby();
+		Hobby hobby = 
 		hobby.setUsername(username);
 		hobby.setHobbyArray(hobbyArray);
 		

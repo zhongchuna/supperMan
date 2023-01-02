@@ -4,6 +4,7 @@
 <title> 时光俱乐部高级会员注册页面</title>
 
 
+
 	<style>
 	    #username{
 	   border:1px solid black;
